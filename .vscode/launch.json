@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "OrdersystemApplication",
+            "request": "launch",
+            "mainClass": "com.aryan.OrdersystemApplication",
+            "projectName": "ordersystem"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-OrdersystemApplication<ordersystem>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.aryan.ordersystem.OrdersystemApplication",
+            "projectName": "ordersystem",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=50434 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=ordersystem"
+        }
+    ]
+}
